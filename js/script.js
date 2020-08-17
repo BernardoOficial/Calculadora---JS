@@ -31,9 +31,7 @@ botoesLim.map(botao => {
 botaoResult.addEventListener('click', calcularResultado);
 
 // Declaração das variáveis.
-let numeroDigitado, operacaoEscolhida, limparEscolhido, numeroGuardado, operacao, resultado;
-
-let numeroAntigo;
+let numeroDigitado, operacaoEscolhida, limparEscolhido, numeroGuardado, operacao, resultado, numeroAntigo;
 
 function calculadora(event) {
 
@@ -72,7 +70,6 @@ function guardarNumero() {
         console.log(numeroGuardado);
         limparTela('AC');
     }
-    // numeroGuardado = numeroGuardado.slice(0, -9) // Para não exibir undefined
 }
 
 // Exibir o valor digitado na tela  
